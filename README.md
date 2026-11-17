@@ -64,5 +64,117 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-EKM Metering is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://ekmmetering.com/
+EKM Metering Inc. provides submetering solutions for residential, commercial, and industrial customers, offering a wide range of remote‑readable kWh meters, water, gas, and current transformer devices, as well as software platforms for data monitoring, billing, and analytics. Their products support scalable deployments, from small‑scale installations to large‑enterprise energy management, emphasizing reliability, ease of integration, and compliance with industry standards.
+
+**Areas:** Submetering · Utility Meters · Cloud Data · Open API · Residential · Commercial · Industrial
+
+## EKM Metering on APIs.io
+
+Everything profiled for EKM Metering is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/ekm-metering/](https://apis.io/providers/ekm-metering/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [ekm-metering](https://apis.io/apis/ekm-metering/ekm-metering/) — EKM Metering API providing metering data and device management.
+- [EKM Metering API](https://apis.io/apis/ekm-metering/ekm-metering-api/) — EKM Metering API as documented publicly: 20 operations. Contract generated from the documentation by API Evangelist (2026-11-16); not the provider's own…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### JSON Schema (5)
+
+The data models the API reads and writes.
+
+- [DeleteApiTriggerResponse](https://apis.io/schemas/ekm-metering/ekm-metering-delete-api-trigger-response/)
+- [GetApiTriggerResponse](https://apis.io/schemas/ekm-metering/ekm-metering-get-api-trigger-response/)
+- [GetResponse](https://apis.io/schemas/ekm-metering/ekm-metering-get-response/)
+- [PostSendcommandResponse](https://apis.io/schemas/ekm-metering/ekm-metering-post-sendcommand-response/)
+- [PutApiTriggerResponse](https://apis.io/schemas/ekm-metering/ekm-metering-put-api-trigger-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Ekm Metering Context](https://apis.io/jsonld/ekm-metering/ekm-metering-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [EKM Metering API Rules](https://apis.io/rules/ekm-metering/ekm-metering-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [EKM Metering Authentication](https://apis.io/security/ekm-metering/ekm-metering-authentication/)
+- [EKM Metering Domain Security](https://apis.io/security/ekm-metering/ekm-metering-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.ekmmetering.com/)
+- [Documentation](https://documents.ekmmetering.com/api-docs/)
+- [Getting started](https://help.ekmmetering.com/support/solutions/articles/6000256939-ekm-push3-installation-and-setup)
+- [API reference](https://documents.ekmmetering.com/api-docs/)
+- [Support](https://help.ekmmetering.com/support/home)
+- [Terms of service](https://www.ekmmetering.com/policies/terms-of-service)
+- [Privacy policy](https://www.ekmmetering.com/policies/privacy-policy)
+- [GitHub](https://github.com/ekmmetering)
+
+## API Evangelist rating
+
+**Kin Score 43.2** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 67.9 |
+| Contract quality | 53.8 |
+| Contract governance | 79.1 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 17.0 |
+
+**Agent readiness 27.2** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | partial |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | — |
+| Agentic Commerce | platform (partial credit) |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 15.6** — Energy & Utilities
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/ekm-metering/](https://apis.io/providers/ekm-metering/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for EKM Metering: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/ekm-metering/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
